@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    /* Primary */
+    --strong-cyan: hsl(171, 66%, 44%); 
+    --light-blue: hsl(233, 100%, 69%);
+    
+    /* Neutral */
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+    
+    /* Fonts */
+    --ff-bai-jamjuree-400-600: 'Bai Jamjuree', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+body {
+    font-family: var(--ff-bai-jamjuree-400-600);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--grayish-blue);
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--ff-bai-jamjuree-400-600);
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+
+.header-container {
+    background-image: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;    
+}
+
+.header-logo {
+    width: 125px;
+}
